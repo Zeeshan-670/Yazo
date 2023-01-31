@@ -208,8 +208,8 @@ textarea:focus {
 
 .btn.theme-btn-1:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-  box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
+  box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
 }
 
 .shadow {
@@ -5953,8 +5953,8 @@ textarea:focus {
 
 .open-account-area .open-account-form form .default-btn:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-  box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
+  box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
 }
 
 /*============================================
@@ -6145,8 +6145,8 @@ textarea:focus {
 
 .loan-form-area .loan-form form .default-btn:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-  box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
+  box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
 }
 
 /*============================================
@@ -6255,8 +6255,8 @@ textarea:focus {
 
 .loan-section .loan-confirm-form .apply-button:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-  box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
+  box-shadow: 0px 17px 43px 1px rgb(102 7 164 / 42%);
 }
 
 /*============================================
