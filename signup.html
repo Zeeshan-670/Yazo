@@ -7,11 +7,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-	<title>Yazo - Streamlining your business, one order at a time</title>
+    <title>Yazo - Streamlining your business, one order at a time</title>
     <!-- /Required meta tags -->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./img/yazo-fav-icon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./img/yazo-fav-icon.ico"
+      type="image/x-icon"
+    />
     <!-- /Favicon -->
 
     <!-- All CSS -->
@@ -43,7 +47,7 @@
         <div class="text-center">
           <img src="./img/Yazo-logo.svg" class="w-25 my-4" alt="" />
         </div>
-        <div class="login-form">
+        <div class="sign-form">
           <!-- Container -->
           <div class="container">
             <form>
@@ -68,49 +72,140 @@
                 </ul>
               </div>
 
-              <div class="input-group">
-                <span class="login-form-icon"
-                  ><i class="uil uil-user"></i
-                ></span>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputUsername"
-                  tabindex="1"
-                  placeholder="Username"
-                  required
-                />
+              <div class="row">
+                <div class="input-group col-md-4">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-user"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputFirstName"
+                    tabindex="1"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="input-group col-md-4">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-user"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputLastName"
+                    tabindex="1"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-envelope"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    tabindex="2"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-envelope"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    tabindex="2"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-lock"></i
+                  ></span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="inputPhoneNumber"
+                    tabindex="3"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-lock"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputBusinessName"
+                    tabindex="3"
+                    placeholder="Business Name"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-lock"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputBusinessType"
+                    tabindex="3"
+                    placeholder="Business Type"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-lock"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputBusinessAddress"
+                    tabindex="3"
+                    placeholder="Business Address"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-lock"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputBusinessABN"
+                    tabindex="3"
+                    placeholder="Business ABN"
+                    required
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="login-form-icon"
+                    ><i class="uil uil-lock"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputPaymentDetails"
+                    tabindex="3"
+                    placeholder="Payment Details"
+                    required
+                  />
+                </div>
               </div>
 
-              <div class="input-group">
-                <span class="login-form-icon"
-                  ><i class="uil uil-envelope"></i
-                ></span>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputEmail"
-                  tabindex="2"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-
-              <div class="input-group">
-                <span class="login-form-icon"
-                  ><i class="uil uil-lock"></i
-                ></span>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="inputPassword"
-                  tabindex="3"
-                  placeholder="Password"
-                  required
-                />
-              </div>
-
-              <div class="input-group">
+              <div class="input-group" style="width: 100%">
                 <div class="form-check">
                   <input
                     type="checkbox"
@@ -125,9 +220,22 @@
                   >
                 </div>
               </div>
+              <div class="login-footer my-3">
+                We take the security of your data very seriously and assure you
+                that your information will be kept confidential and will not be
+                shared with any third parties. Once you've signed up, you'll
+                have access to our free trial period where you can test out our
+                products and see how they can benefit your business. After the
+                trial period, you can choose a pricing plan that suits your
+                business needs. Sign up now and experience the power of Yazo!
+                Still have questions or concerns? Contact our friendly customer
+                support team at <strong>support@yazo.com.au</strong> for assistance. Thank you
+                for choosing Yazo! We're committed to helping your business
+                succeed.
+              </div>
 
               <div class="row justify-content-center mb-md-3">
-                <div class="col-sm-6 mb-md-3 mb-sm-0">
+                <div class="col-sm-6 mb-md-3 mb-sm-0 text-center">
                   <button type="submit" class="btn theme-btn-1">Sign Up</button>
                 </div>
               </div>
