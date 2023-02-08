@@ -174,6 +174,8 @@ textarea:focus {
   align-items: flex-start;
 }
 
+
+
 /*============================================
 
                 03 -- Components
@@ -2904,6 +2906,9 @@ textarea:focus {
 .pos-rel {
   position: relative;
 }
+.pos-abs {
+  position: ab;
+}
 
 .oh {
   overflow: hidden;
@@ -3371,7 +3376,7 @@ textarea:focus {
 }
 
 .about-area .about-content .about-inner-content:hover .icon i {
-  background: #f64c67;
+  background: #5f009d;
 }
 
 .about-area .about-image-warp {
@@ -3425,7 +3430,7 @@ textarea:focus {
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #5f009d;
   -webkit-animation: ripple 1s linear 1s infinite;
   animation: ripple 1s linear 1s infinite;
 }
@@ -3440,7 +3445,7 @@ textarea:focus {
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #5f009d;
   -webkit-animation: ripple 1s linear infinite;
   animation: ripple 1s linear infinite;
 }
@@ -3937,7 +3942,7 @@ textarea:focus {
 }
 
 .single-services .services-btn {
-  color: #f64c67;
+  color: #5f009d;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3958,7 +3963,7 @@ textarea:focus {
 }
 
 .single-services:hover h3 a {
-  color: #f64c67;
+  color: #5f009d;
 }
 
 .single-services .icon {
@@ -4031,6 +4036,12 @@ textarea:focus {
   transition: 0.5s;
   color: #6b6b84;
 }
+.single-services-item .content span > a{
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #6b6b84;
+}
 
 .single-services-item .content::before {
   content: '';
@@ -4039,24 +4050,8 @@ textarea:focus {
   top: 0;
   width: 100%;
   height: 0;
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    from(#fdb084),
-    color-stop(#ff9870),
-    color-stop(#ff7e62),
-    color-stop(#ff5f59),
-    to(#ff3656)
-  );
-  background: linear-gradient(
-    to right top,
-    #fdb084,
-    #ff9870,
-    #ff7e62,
-    #ff5f59,
-    #ff3656
-  );
+  background: linear-gradient(to right, #5f009d, #9a00ffcf);
+  background: -webkit-gradient(to right, #5f009d, #9a00ffcf);
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4074,6 +4069,10 @@ textarea:focus {
 
 .single-services-item:hover .content h3 a,
 .single-services-item:hover .content span {
+  color: #ffffff;
+}
+.single-services-item:hover .content h3 a,
+.single-services-item:hover .content span> a {
   color: #ffffff;
 }
 
@@ -4102,24 +4101,8 @@ textarea:focus {
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    from(#fdb084),
-    color-stop(#ff9870),
-    color-stop(#ff7e62),
-    color-stop(#ff5f59),
-    to(#ff3656)
-  );
-  background: linear-gradient(
-    to right top,
-    #fdb084,
-    #ff9870,
-    #ff7e62,
-    #ff5f59,
-    #ff3656
-  );
+  background: linear-gradient(to right, #5f009d, #9a00ffcf);
+  background: -webkit-gradient(to right, #5f009d, #9a00ffcf);
   -webkit-transform: rotate(-7deg);
   transform: rotate(-7deg);
 }
@@ -4135,24 +4118,8 @@ textarea:focus {
   height: 120px;
   width: 120px;
   line-height: 120px;
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    from(#fdb084),
-    color-stop(#ff9870),
-    color-stop(#ff7e62),
-    color-stop(#ff5f59),
-    to(#ff3656)
-  );
-  background: linear-gradient(
-    to right top,
-    #fdb084,
-    #ff9870,
-    #ff7e62,
-    #ff5f59,
-    #ff3656
-  );
+  background: linear-gradient(to right, #5f009d, #9a00ffcf);
+  background: -webkit-gradient(to right, #5f009d, #9a00ffcf);
   color: #ffffff;
   font-size: 45px;
   border-radius: 50px;
@@ -4170,7 +4137,7 @@ textarea:focus {
 }
 
 .single-services-box .services-btn {
-  color: #f64c67;
+  color: #5f009d;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4191,7 +4158,7 @@ textarea:focus {
 }
 
 .single-services-box:hover h3 a {
-  color: #f64c67;
+  color: #5f009d;
 }
 
 .single-services-box:hover .icon {
@@ -4209,7 +4176,7 @@ textarea:focus {
   border-radius: 8px;
   padding: 42px 40px 45px 40px;
   margin-bottom: 30px;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
   border: 1px solid rgba(158, 166, 186, 0.2);
 }
@@ -4292,6 +4259,12 @@ textarea:focus {
   margin-top: 23px;
   font-size: 12px;
   text-align: center;
+}
+
+.pricing-btn-container{
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
 }
 
 @media (max-width: 320px) {
@@ -6873,8 +6846,8 @@ textarea:focus {
 .featured-boxes-inner {
   background-color: #fff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); */
 }
 
 .featured-boxes-inner .col-lg-3 {
@@ -7348,7 +7321,7 @@ textarea:focus {
 
 ==============================================*/
 .download-area {
-  background-color: #ffeded;
+  background-color: #ddc9ea;
 }
 
 @media only screen and (max-width: 991px) {
