@@ -151,65 +151,6 @@
 
 	/*===========================================
 
-                    Related Folio Slider
-
-    =============================================*/
-
-	if ($('.related_slide').length > 0) {
-		$('.related_slide').owlCarousel({
-			items: 2,
-			margin: 40,
-			autoplay: true,
-			nav: false,
-			navText: false,
-			dots: false,
-			responsive: {
-				0: {
-					items: 1
-				},
-				768: {
-					items: 2
-				}
-			}
-		});
-	}
-
-	/*===========================================
-
-	                   Countdown
-	                   
-	=============================================*/
-
-	$('[data-countdown]').each(function () {
-		var $this = $(this),
-			finalDate = $(this).data('countdown');
-		$this.countdown(finalDate, function (event) {
-			$this.html(event.strftime('<div class="single-countdown"><span class="single-countdown_time">%D</span><span class="single-countdown_text">Days</span></div><div class="single-countdown"><span class="single-countdown_time">%H</span><span class="single-countdown_text">Hours</span></div><div class="single-countdown"><span class="single-countdown_time">%M</span><span class="single-countdown_text">Min</span></div><div class="single-countdown"><span class="single-countdown_time">%S</span><span class="single-countdown_text">Sec</span></div>'));
-		});
-	});
-	if ($('.coming-soon-inner').length !== 0) {
-		const second = 1000,
-			minute = second * 60,
-			hour = minute * 60,
-			day = hour * 24;
-		let countDown = new Date('Jan 12, 2022 00:00:00').getTime(),
-			x = setInterval(function () {
-				let now = new Date().getTime(),
-					distance = countDown - now;
-				document.getElementById('days').innerText = Math.floor(distance / (day)),
-					document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-					document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-					document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-				//do something later when date is reached
-				//if (distance < 0) {
-				//  clearInterval(x);
-				//  'IT'S MY BIRTHDAY!;
-				//}
-			}, second)
-	};
-
-	/*===========================================
-
 	                    Preloader
 
 	=============================================*/
@@ -222,16 +163,6 @@
 		});
 	});
 
-	/*===========================================
-
-	                Loan Calculation
-
-	=============================================*/
-
-	var calculationLoan = $('.calculator-loan');
-	if (calculationLoan.length) {
-		calculationLoan.accrue();
-	}
 
 	/*===========================================
 
@@ -262,7 +193,7 @@
 	$('.go-top').on('click', function () {
 		$("html, body").animate({
 			scrollTop: "0"
-		}, 1200);
+		}, 100);
 	});
 
 })(jQuery);
