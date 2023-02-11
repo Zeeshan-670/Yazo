@@ -136,8 +136,6 @@ textarea:focus {
   align-items: flex-start;
 }
 
-
-
 /*============================================
 
                 02 -- Components
@@ -3565,7 +3563,6 @@ textarea:focus {
   color: #ffffff;
 }
 
-
 /*============================================
 
               07 -- Breadcrumb 
@@ -3791,7 +3788,7 @@ textarea:focus {
   transition: 0.5s;
   color: #6b6b84;
 }
-.single-services-item .content span > a{
+.single-services-item .content span > a {
   font-weight: bold;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3827,7 +3824,7 @@ textarea:focus {
   color: #ffffff;
 }
 .single-services-item:hover .content h3 a,
-.single-services-item:hover .content span> a {
+.single-services-item:hover .content span > a {
   color: #ffffff;
 }
 
@@ -3979,7 +3976,7 @@ textarea:focus {
 }
 
 .pricing-area .pricing-item .pricing-title .pricing-title {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -4016,7 +4013,7 @@ textarea:focus {
   text-align: center;
 }
 
-.pricing-btn-container{
+.pricing-btn-container {
   position: absolute;
   bottom: 5%;
   left: 15%;
@@ -4091,7 +4088,7 @@ textarea:focus {
   margin-bottom: 1.5rem;
   width: 50%;
 }
-@media only screen and (max-width: 600px) and (min-width: 400px)  {
+@media only screen and (max-width: 600px) and (min-width: 400px) {
   .login-page .sign-form .input-group {
     position: relative;
     margin-bottom: 1.5rem;
@@ -5901,7 +5898,6 @@ textarea:focus {
   margin-bottom: 0;
 }
 
-
 /*============================================
 
                 19 -- download
@@ -6229,4 +6225,3 @@ textarea:focus {
 .footer-style .footer-bottom-area .copyright p a {
   color: #5f009e;
 }
-
